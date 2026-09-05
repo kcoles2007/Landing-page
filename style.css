@@ -15,19 +15,21 @@ img {
     height: 100px;
 }
 
+
 .sect1 {
     display: flex;
     flex-direction: row;
     background-color: #1F2937;
-    padding: 0px 50px 50px;
+    padding: 0px 90px 90px;
     flex-wrap: wrap;
-    gap: 18px;
+    justify-content: space-evenly;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 0px 50px 0px 50px;
+    padding: 0px 90px 0px 90px;
 }
 
 .hero {
@@ -51,7 +53,7 @@ img {
 .sect2 {
     display: flex;
     flex-direction: column;
-    padding: 20px 50px 50px 50px;
+    padding: 20px 90px 90px 90px;
 }
 
 .sect2 .title {
@@ -84,6 +86,49 @@ img {
     font-style: italic;
 }
 
+.sect4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    flex-direction: row;
+    text-align: justify;
+    padding: 70px;
+}
+
+.sect4 .box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: skyblue;
+    flex: 1;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+.sect4 button {
+    width: 3cm;
+    height: 1cm;
+    border-radius: 5px;
+    border-color: white;
+    background-color: skyblue;
+}
+
+.sect4 .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.text h2 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.text p {
+    color: white;
+    font-size: 1rem;
+    margin: 0;
+}
 
 
 .footer {
@@ -92,7 +137,7 @@ img {
     align-items: center;
     background-color: #1F2937;
     color: white;
-    padding: 50px;
+    padding: 18px 90px 24px 90px;
 }
 
 ul {
@@ -106,3 +151,4 @@ ul {
 a {
     text-decoration: none;
 }
+
